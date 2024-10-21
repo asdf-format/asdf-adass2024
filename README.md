@@ -102,7 +102,7 @@ Now navigate to this directory in the terminal:
 cd asdf-adass2024
 ```
 
-And finally, on any platform, to install and activate the `roman-data-workshop-env` environment, type:
+And finally, on any platform, to install and activate the `adass-asdf` environment, type:
 
 ```shell
 conda env create --file install/environment.yml
