@@ -144,7 +144,7 @@ python data/download.py
 
 ## 7. Starting Jupyter Notebook
 
-Making sure your terminal is in the `roman-data-workshop` directory (you can use `pwd` to check), you can then start the
+Making sure your terminal is in the `addf-adass2024` directory (you can use `pwd` to check), you can then start the
 Jupyter server on your local computer, with which you can view the Jupyter notebooks:
 
 ```shell
