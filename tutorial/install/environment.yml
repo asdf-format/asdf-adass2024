@@ -16,5 +16,4 @@ dependencies:
       - asdf-astropy
       - astropy >= 5.3
       - gwcs >= 0.20
-      - stpipe
       #- romancal >= 0.13
