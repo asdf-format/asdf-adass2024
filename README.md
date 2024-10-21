@@ -1,5 +1,6 @@
 # The Advanced Scientific Data Format Tutorial
-## ADASS 2024, Valletta, Malta
+## ADASS 2024
+### Valletta, Malta
 
 To run all the workshop notebooks on your own computer, be sure your machine is configured with the packages in
 the
@@ -71,7 +72,7 @@ If the output shows a Git version, skip to the next step. Otherwise, install Git
 conda install git
 ```
 
-## 5. Clone this repository, or download and extract a ZIP file, from GitHub
+## 4. Clone this repository, or download and extract a ZIP file, from GitHub
 
 If using `git`, clone the workshop repository using
 [git](https://help.github.com/articles/set-up-git/):
@@ -83,7 +84,7 @@ git clone https://github.com/asdf-format/asdf-adass2024.git
 If you elect not to use `git`, you can download the ZIP file by opening the green `Code` button at
 https://github.com/asdf-format/asdf-adass2024.git and selecting `Download ZIP`.
 
-## 6. Create a `conda` environment for the workshop
+## 5. Create a `conda` environment for the workshop
 
 > *Miniconda includes an environment manager called conda. Environments allow you to have multiple sets of Python
 packages installed at the same time, making reproducibility and upgrades easier. You can create, export, list, remove,
@@ -132,7 +133,7 @@ and then you can upgrade with `pip install --upgrade <package>`:
 pip install --upgrade numpy
 ```
 
-## 8. Download Data
+## 6. Download Data
 
 Making sure to activate the `conda` environment (`conda activate adass-asdf`), run the following to
 download the data files used by these notebooks:
@@ -141,7 +142,7 @@ download the data files used by these notebooks:
 python data/download.py
 ```
 
-## 9. Starting Jupyter Notebook
+## 7. Starting Jupyter Notebook
 
 Making sure your terminal is in the `roman-data-workshop` directory (you can use `pwd` to check), you can then start the
 Jupyter server on your local computer, with which you can view the Jupyter notebooks:
