@@ -1,4 +1,4 @@
-name: roman-data-workshop-env
+name: adass-asdf
 
 dependencies:
   - jupyter
@@ -8,13 +8,11 @@ dependencies:
   - numpy >= 1.20
   - packaging
   - pip
-  - python >= 3.9
+  - python == 3.11
   - pyyaml
   - pip:
-      - asdf_standard
       - asdf
       - asdf-astropy
       - astropy >= 5.3
       - gwcs >= 0.20
-      - stpipe
-      - romancal >= 0.13
+      #- romancal >= 0.13
