@@ -112,19 +112,10 @@ conda activate adass-asdf
 The name of the new conda environment created above should now be displayed next to the terminal
 prompt: `(adass-asdf)`
 
-If the package was installed with `pip`, the `Build` and `Channel` columns will include `pypi`:
-
-```
-# packages in environment at /opt/miniconda3/envs/test:
-#
-# Name                    Version                   Build  Channel
-numpy                     1.22.4                   pypi_0    pypi
-```
-
-and then you can upgrade with `pip install --upgrade <package>`:
+To verify the installation type:
 
 ```shell
-pip install --upgrade numpy
+python 00_install/verify.py
 ```
 
 ## 6. Download Data
