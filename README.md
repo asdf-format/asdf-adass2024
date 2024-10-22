@@ -105,18 +105,12 @@ cd asdf-adass2024
 And finally, on any platform, to install and activate the `adass-asdf` environment, type:
 
 ```shell
-conda env create --file install/environment.yml
+conda env create --file 00_install/environment.yml
 conda activate adass-asdf
 ```
 
 The name of the new conda environment created above should now be displayed next to the terminal
 prompt: `(adass-asdf)`
-
-Now navigate to this directory in the terminal:
-
-```shell
-cd asdf-adass2024
-```
 
 If the package was installed with `pip`, the `Build` and `Channel` columns will include `pypi`:
 
