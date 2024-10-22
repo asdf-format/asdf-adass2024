@@ -4,7 +4,7 @@
 
 To run all the workshop notebooks on your own computer, be sure your machine is configured with the packages in
 the
-[installation check file](https://github.com/asdf-format/asdf-adass2024/blob/main/tutorial/install/verify_install.py). These packages
+[installation check file](https://github.com/asdf-format/asdf-adass2024/blob/main/00_install/verify_install.py). These packages
 are the ones we use to verify that the notebooks are working as expected.
 
 These instructions assume the installation is done on a *nix type of operating system and describe setup using `git` and `Miniconda`. It is not strictly necessary to use either of these.There are pointers for setting this up on Windows, however Windows is not fully supported.
