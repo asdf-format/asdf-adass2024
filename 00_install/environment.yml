@@ -15,4 +15,4 @@ dependencies:
       - asdf-astropy
       - astropy >= 5.3
       - gwcs >= 0.20
-      #- romancal >= 0.13
+      - stdatamodels
