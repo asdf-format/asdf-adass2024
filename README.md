@@ -115,7 +115,7 @@ prompt: `(adass-asdf)`
 To verify the installation type:
 
 ```shell
-python 00_install/verify.py
+python 00_install/verify_install.py
 ```
 
 Note that the environment needs to be removed before generating it again. The command below will remove the "adass-asdf" environment and all packages under it.
