@@ -118,7 +118,7 @@ To verify the installation type:
 python 00_install/verify_install.py
 ```
 
-Note that the environment needs to be removed before generating it again. The command below will remove the "adass-asdf" environment and all packages under it.
+Note about recreating this environment: These instructions generate an environment under the name "adass-asdf". To regenerate it by running the instructions again, the previously created environment must be removed. The command below will remove the "adass-asdf" environment and all packages under it.
 
 ```shell
 conda env remove -n adass-asdf
